@@ -1,0 +1,15 @@
+.nav {
+  height: 100px;
+  width: 100vw;
+  background-color: #181818;
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.menu_items {
+  grid-column: 5 / 8;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
